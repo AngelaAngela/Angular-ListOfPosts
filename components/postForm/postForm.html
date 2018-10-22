@@ -1,0 +1,22 @@
+<!-- displays the new post form -->
+
+
+
+
+
+<form ng-submit="$ctrl.postForm{{newThought: $ctrl.newThought }};">
+      
+      <label>Title</label>
+     
+      <input type="text" ng-model="$ctrl.newThought.title" placeholder="Post title">
+      
+      <label>Thought</label>
+      
+      <input ng-model="$ctrl.newThought.thought"></input>
+      
+      <button>Add Post</button>
+    
+</form>
+
+
+
